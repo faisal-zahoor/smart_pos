@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include smart_pos *.css
+recursive-include smart_pos *.csv
+recursive-include smart_pos *.html
+recursive-include smart_pos *.ico
+recursive-include smart_pos *.js
+recursive-include smart_pos *.json
+recursive-include smart_pos *.md
+recursive-include smart_pos *.png
+recursive-include smart_pos *.py
+recursive-include smart_pos *.svg
+recursive-include smart_pos *.txt
+recursive-exclude smart_pos *.pyc
